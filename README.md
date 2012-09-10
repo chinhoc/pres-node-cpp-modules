@@ -21,7 +21,7 @@ Simple C++ code examples illustrating the capabilities of nodejs'cpp modules
 	node tests/interceptTest.js
 
 ## Acknowledgements
-Code example taking mostly from:
-[Konstantin Käfer's very good tutorial](https://github.com/kkaefer/node-cpp-modules)
-[Nodejs C++ addon documentation](http://nodejs.org/api/addons.html)
+Code example taking mostly from:  
+[Konstantin Käfer's very good tutorial](https://github.com/kkaefer/node-cpp-modules)  
+[Nodejs C++ addon documentation](http://nodejs.org/api/addons.html)  
 [Daniel Ennis's magic utility](https://github.com/aikar/magic)
