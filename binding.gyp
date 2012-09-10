@@ -7,6 +7,10 @@
     {
     	"target_name": "funcArgs",
     	"sources": [ "src/funcArgs.cpp"]
+    },
+    {
+      "target_name": "intercept",
+      "sources": [ "src/intercept.cpp"]
     }
   ]
 }
