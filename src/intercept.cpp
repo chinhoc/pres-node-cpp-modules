@@ -39,7 +39,7 @@ CreateInterception( const Arguments& args ) {
 }
 
 static void 
-init( Handle<Object> target ) {
+Init( Handle<Object> target ) {
 
 	interceptObj = Persistent<ObjectTemplate>::New(ObjectTemplate::New());
     interceptObj->SetInternalFieldCount(2);
@@ -47,4 +47,4 @@ init( Handle<Object> target ) {
 	NODE_SET_METHOD(target, "createInterception", CreateInterception);
 }
 
-NODE_MODULE(intercept, init);
+NODE_MODULE(intercept, Init);

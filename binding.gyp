@@ -9,6 +9,10 @@
     	"sources": [ "src/funcArgs.cpp"]
     },
     {
+      "target_name": "wrappy",
+      "sources": [ "src/wrappy.cpp"]
+    },
+    {
       "target_name": "intercept",
       "sources": [ "src/intercept.cpp"]
     }

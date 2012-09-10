@@ -16,8 +16,8 @@ TransformString( const Arguments& args ) {
 
 
 static void 
-init( Handle<Object> target ) {
+Init( Handle<Object> target ) {
 	NODE_SET_METHOD(target, "transformString", TransformString);
 }
 
-NODE_MODULE(funcArgs, init);
+NODE_MODULE(funcArgs, Init);

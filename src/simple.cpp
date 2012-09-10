@@ -14,8 +14,8 @@ RandomNumber( const v8::Arguments& args ) {
 
 
 static void 
-init( v8::Handle<v8::Object> target ) {
+Init( v8::Handle<v8::Object> target ) {
 	NODE_SET_METHOD(target, "randomNumber", RandomNumber);
 }
 
-NODE_MODULE(simpleModule, init);
+NODE_MODULE(simpleModule, Init);
