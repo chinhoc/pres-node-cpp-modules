@@ -2,10 +2,11 @@
 
 
 ## About
-Resources for http://www.meetup.com/Strasbourg-Web/events/75138492/
+Resources for http://www.meetup.com/Strasbourg-Web/events/75138492/  
 
-Simple C++ code examples illustrating the capabilities of nodejs'cpp modules
-
+Repository contains:  
+* Simple C++ code examples illustrating the capabilities of nodejs'cpp modules
+* Slides of presentation done for the meetup
 
 ## Requirements
 *node-gyp* for building C++ to node module
